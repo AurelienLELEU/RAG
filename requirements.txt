@@ -1,0 +1,29 @@
+fastapi==0.115.6
+uvicorn[standard]==0.32.1
+pydantic==2.10.4
+pydantic-settings==2.7.0
+python-multipart==0.0.20
+
+# Vector store + embeddings
+chromadb==0.5.23
+sentence-transformers==3.3.1
+
+# Local LLM client (Ollama)
+ollama==0.4.4
+
+# Agent orchestration
+langgraph==0.2.60
+
+# Document loaders
+pypdf==5.1.0
+python-docx==1.1.2
+beautifulsoup4==4.12.3
+markdown-it-py==3.0.0
+
+# Frontend
+streamlit==1.41.1
+requests==2.32.3
+
+# Pin to versions with prebuilt wheels for CPython 3.11/3.12 on Windows
+numpy<2.2
+torch>=2.2,<2.5

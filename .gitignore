@@ -1,0 +1,11 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+venv/
+data/chroma/
+data/documents/*
+!data/documents/.gitkeep
+.streamlit/
+.pytest_cache/
+.DS_Store
